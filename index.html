@@ -4,12 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Segunda entrega</title>
+    <title>Tercera entrega</title>
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
+
 <body>
-    <h1>Pre-entrega numero 3</h1>
-    <p>Construyendo una tienda interactiva.</p>
-    <button class="agregar">Agregar</button>
+    <h1>Tienda Virtual</h1>
+
+    <div class="container" id="productos">
+        <div class="producto">
+            <img src="imagenes/Remera-icecube.jpg" alt="Producto 1">
+            <h2>Remera IceCube</h2>
+            <p>Precio: $6200</p>
+            <button class="add-btn" data-nombre="Remera IceCube" data-precio="6200">Agregar al Carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="imagenes/remera-tupac.jpg" alt="Producto 2">
+            <h2>Remera Tupac</h2>
+            <p>Precio: $6500</p>
+            <button class="add-btn" data-nombre="Remera Tupac" data-precio="6500">Agregar al Carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="imagenes/remera-negra.jpg" alt="Producto 3">
+            <h2>Remera Black</h2>
+            <p>Precio: $6000</p>
+            <button class="add-btn" data-nombre="Remera Black" data-precio="6000">Agregar al Carrito</button>
+        </div>
+    </div>
+
+    <div class="btnsFinales">
+        <button id="finalizar-btn">Finalizar Compra</button>
+        <button id="arrepentimiento-btn">Limpiar carrito</button>
+
+    </div>
+
+    <div class="divCarrito" id="carrito">
+        <h2>Carrito de Compras</h2>
+        <div id="itemsSeleccionados"></div>
+        <p>Total: $<span id="total"></span></p>
+    </div>
+
     <script src="js/miarchivo.js"></script>
 </body>
+
 </html>
