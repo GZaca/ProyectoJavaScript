@@ -1,0 +1,94 @@
+[
+        {
+        "id": "OverSize 3",
+        "titulo": "Full-black",
+        "imagen": "./imagenes/Full-black.jpg",
+        "categoria": {
+            "nombre": "Remeras oscuras",
+            "id": "Negros"
+        },
+        "precio": 4500
+    },
+    {
+        "id": "OverSize 4",
+        "titulo": "Full-white",
+        "imagen": "./imagenes/Full-white.jpg",
+        "categoria": {
+            "nombre": "Remeras claras",
+            "id": "Blancos"
+        },
+        "precio": 4500
+    },
+
+        {
+            "id": "OverSize 9",
+            "titulo": "Urban",
+            "imagen": "./imagenes/Urban.jpg",
+            "categoria": {
+                "nombre": "Remeras claras",
+                "id": "Blancos"
+            },
+            "precio": 5000
+        },
+    {
+        "id": "OverSize 1",
+        "titulo": "Balance",
+        "imagen": "./imagenes/Balance.jpg",
+        "categoria": {
+            "nombre": "Remeras claras",
+            "id": "Blancos"
+        },
+        "precio": 5200
+    },
+    {
+        "id": "OverSize 5",
+        "titulo": "Gaston",
+        "imagen": "./imagenes/Gastado.jpg",
+        "categoria": {
+            "nombre": "Remeras oscuras",
+            "id": "Negros"
+        },
+        "precio": 5200
+    },
+    {
+        "id": "OverSize 6",
+        "titulo": "Ice-cube",
+        "imagen": "./imagenes/Remera-icecube.jpg",
+        "categoria": {
+            "nombre": "Remeras claras",
+            "id": "Blancos"
+        },
+        "precio": 5500
+    },
+    {
+        "id": "OverSize 7",
+        "titulo": "Black-stamp",
+        "imagen": "./imagenes/remera-negra.jpg",
+        "categoria": {
+            "nombre": "Remeras oscuras",
+            "id": "Negros"
+        },
+        "precio": 5200
+    },
+    {
+        "id": "OverSize 8",
+        "titulo": "Tupac",
+        "imagen": "./imagenes/remera-tupac.jpg",
+        "categoria": {
+            "nombre": "Remeras oscuras",
+            "id": "Negros"
+        },
+        "precio": 5500
+    },
+
+    {
+        "id": "OverSize 2",
+        "titulo": "Chombita",
+        "imagen": "./imagenes/Chomba.jpg",
+        "categoria": {
+            "nombre": "Remeras oscuras",
+            "id": "Negros"
+        },
+        "precio": 6500
+    }
+]
